@@ -1,9 +1,9 @@
 <?php
 $dbHost = getenv('DB_HOST') ?: 'localhost';
 $dbUser = getenv('DB_USER') ?: 'root';
-$dbPassword = getenv('DB_PASSWORD') ?: '';
+$dbPassword = getenv('DB_PASSWORD') ?: 'Jen12345';
 $dbName = getenv('DB_NAME') ?: 'robo_system';
-$arduinoPort = getenv('ARDUINO_PORT') ?: 'COM3';
+$arduinoPort = getenv('ARDUINO_PORT') ?: 'COM5';
 $refreshIntervalMs = (int)(getenv('REFRESH_INTERVAL_MS') ?: 2000);
 $devicePath = '\\\\.\\' . $arduinoPort;
 
