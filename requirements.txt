@@ -1,0 +1,7 @@
+streamlit
+pandas
+sqlalchemy
+mysql-connector-python
+pyserial
+python-dotenv
+openpyxl
